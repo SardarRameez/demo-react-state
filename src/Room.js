@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Room.css'
 
 function Room(){
-    let [isLit,setLit]=useState(false);
+    let [isLit,setLit]=useState(true);
     let [temp,setTemp]=useState(22);
     return (
         <div className={"grid " + (isLit ?"On":"Off")}>
