@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 100vh;
+}
+.On {
+    background-color: white;
+    color: black;
+}
+.Off {
+    background-color: black;
+    color: white;
+}
+.grid > div {
+
+    text-align: right;
+}
+.btn {
+    padding: 1ch;
+    margin: 0.5ch;
+    border-radius: 1ch;
+    width: 2cm;
+}
